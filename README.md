@@ -19,4 +19,4 @@
 
 - [ ] MongoDB
 
-> Cuaderno de notas: [https://boostnote.io/q1mpxiq2k/Practica-HTML-Y-CSS-dC2bc11c2a0e7a4dbfbc8d4969911be2a0](url)
+> Cuaderno de notas: [https://boostnote.io/q1mpxiq2k/invite/oIdb12576312c8fd7ee1d0a8b11986946ea057bce5f360a3c4de279eb65cd0dcd2](url)
