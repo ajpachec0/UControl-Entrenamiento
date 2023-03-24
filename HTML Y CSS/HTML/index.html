@@ -2,9 +2,23 @@
 <html lang="es">
   <head>
     <title>Practica UControl Softwaare</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h2>AppDeGatos</h2>
+    <h2 id="t">AppDeGatos</h2>
     <main>
       <h3>Imagenes de Gatos:</h3>
       <!-- TODO: Agregar enlace a imagenes de gatos-->
@@ -16,32 +30,40 @@
       </p>
 
       <a href="https://www.freecodecamp.org/espanol/" target="_blank">
-        <img src="https://bit.ly/fcc-relaxing-cat" alt="gatitos jugando" />
+        <img
+          id="imagen-gatos"
+          src="https://bit.ly/fcc-relaxing-cat"
+          alt="gatitos jugando"
+        />
       </a>
 
       <hr />
 
       <h3>Listas de Gatos</h3>
 
-      <div>
+      <div class="contenedor-listas">
         <p>Cosas que los gatos <em> aman:</em></p>
 
-        <ul>
+        <ul id="listas-love">
           <li>Menta gatuna</li>
           <li>Apuntadores laser</li>
           <li><s> Lasagna</s></li>
         </ul>
-        <img src="Imagenes/lasagna.jpg" alt="lasagna" />
+        <img src="Imagenes/lasagna.jpg" alt="lasagna" id="img-lasagna" />
 
         <p>Cosas que los gatos <strong> odian: </strong></p>
 
-        <ol>
+        <ol id="listas-hate">
           <li>Tratamiento antipulgas</li>
           <li>Truenos</li>
           <li>Otros gatos</li>
         </ol>
+        <img
+          src="Imagenes/gatos.jpeg"
+          alt="gatitos "
+          class="bordes-redondeados"
+        />
       </div>
-      <img src="Imagenes/gatos.jpeg" alt="gatitos " />
 
       <!-- Atributo action indica donde sera alojado el archivo en el servidor -->
       <form action="/enviar-respuesta">

@@ -1,0 +1,34 @@
+#title-app {
+  font-size: 30px;
+  color: green;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#imagen-gatos {
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: brown;
+}
+
+#listas-love {
+font-size: 15px;
+color: blueviolet;
+}
+
+#listas-hate {
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#img-lasagna {
+  width: 450px;
+}
+
+[type="radio"] {
+  margin: 5px;
+}
+
+input[type="checkbox"] {
+  margin: 8px;
+}
