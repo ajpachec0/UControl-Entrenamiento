@@ -15,7 +15,43 @@
       <a href="https://www.freecodecamp.org/espanol/" target="_blank">
         <img src="https://bit.ly/fcc-relaxing-cat" alt="gatitos jugando" />
       </a>
+
+      <hr />
+
+      <h3>Listas de Gatos</h3>
+
+      <p>Cosas que los gatos <em> aman:</em></p>
+
+      <ul>
+        <li>Menta gatuna</li>
+        <li>Apuntadores laser</li>
+        <li><s> Lasagna</s></li>
+      </ul>
       <img src="Imagenes/lasagna.jpg" alt="lasagna" />
+
+      <p>Cosas que los gatos <strong> odian: </strong></p>
+
+      <ol>
+        <li>Tratamiento antipulgas</li>
+        <li>Truenos</li>
+        <li>Otros gatos</li>
+      </ol>
+
+      <img src="Imagenes/gatos.jpeg" alt="gatitos " />
+
+      <!-- Atributo action indica donde sera alojado el archivo en el servidor -->
+      <form action="/enviar-respuesta">
+        <label for="interior">
+          <input id="interior" type="radio" /> Interior
+        </label>
+
+        <label for="exterior">
+          <input id="exterior" type="radio" /> Exterior
+        </label>
+
+        <input type="text" placeholder="URL De la foto del gatos" required />
+        <button type="submit">Enviar</button>
+      </form>
     </main>
   </body>
 </html>
