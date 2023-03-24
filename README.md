@@ -19,4 +19,4 @@
 
 - [ ] MongoDB
 
-> Cuaderno de notas: [https://boostnote.io/q1mpxiq2k/invite/oIdb12576312c8fd7ee1d0a8b11986946ea057bce5f360a3c4de279eb65cd0dcd2](url)
+> Cuaderno de notas: [https://boostnote.io/shared/c1bab5d2-0fef-4c3d-ae0f-05ac5c6436e6](url)
