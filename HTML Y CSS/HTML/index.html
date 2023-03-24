@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <title>Practica UControl Softwaare</title>
+  </head>
   <body>
     <h2>AppDeGatos</h2>
     <main>
@@ -20,38 +23,96 @@
 
       <h3>Listas de Gatos</h3>
 
-      <p>Cosas que los gatos <em> aman:</em></p>
+      <div>
+        <p>Cosas que los gatos <em> aman:</em></p>
 
-      <ul>
-        <li>Menta gatuna</li>
-        <li>Apuntadores laser</li>
-        <li><s> Lasagna</s></li>
-      </ul>
-      <img src="Imagenes/lasagna.jpg" alt="lasagna" />
+        <ul>
+          <li>Menta gatuna</li>
+          <li>Apuntadores laser</li>
+          <li><s> Lasagna</s></li>
+        </ul>
+        <img src="Imagenes/lasagna.jpg" alt="lasagna" />
 
-      <p>Cosas que los gatos <strong> odian: </strong></p>
+        <p>Cosas que los gatos <strong> odian: </strong></p>
 
-      <ol>
-        <li>Tratamiento antipulgas</li>
-        <li>Truenos</li>
-        <li>Otros gatos</li>
-      </ol>
-
+        <ol>
+          <li>Tratamiento antipulgas</li>
+          <li>Truenos</li>
+          <li>Otros gatos</li>
+        </ol>
+      </div>
       <img src="Imagenes/gatos.jpeg" alt="gatitos " />
 
       <!-- Atributo action indica donde sera alojado el archivo en el servidor -->
       <form action="/enviar-respuesta">
+        <!-- Botones de radio-->
         <label for="interior">
-          <input id="interior" type="radio" /> Interior
+          <input
+            id="interior"
+            type="radio"
+            name="interior-exterior"
+            checked
+            value="interior"
+          />
+          Interior
         </label>
-
+        <br />
         <label for="exterior">
-          <input id="exterior" type="radio" /> Exterior
+          <input
+            id="exterior"
+            type="radio"
+            name="interior-exterior"
+            value="exterior"
+          />
+          Exterior
         </label>
-
+        <br />
+        <!-- Casillas de verificacion-->
+        <label for="carinoso">
+          <input
+            type="checkbox"
+            name="personalidad"
+            id="carinoso"
+            checked
+            value="carinoso"
+          />
+          Cariñoso
+        </label>
+        <br />
+        <label for="perezoso">
+          <input
+            type="checkbox"
+            name="personalidad"
+            id="perezoso"
+            value="perezoso"
+          />
+          Perezoso
+        </label>
+        <br />
+        <label for="energico">
+          <input
+            type="checkbox"
+            name="personalidad"
+            id="energico"
+            value="energico"
+          />
+          Energico
+        </label>
+        <br />
+        <!-- Texto y enviar-->
         <input type="text" placeholder="URL De la foto del gatos" required />
         <button type="submit">Enviar</button>
       </form>
     </main>
+    <footer>
+      <p>
+        <small>
+          Sin derechos de autor -
+          <a href="https://www.facebook.com" target="_blank">
+            Alejandro Pacheco
+          </a>
+        </small>
+      </p>
+    </footer>
   </body>
 </html>
