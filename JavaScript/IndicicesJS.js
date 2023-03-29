@@ -1,7 +1,6 @@
-<script>
-  var miCadena;
+var miCadena;
 
-  /* 
+/* 
   
   El ultimo indice siempre es longitud -1 porque comenzamos desde 0
 
@@ -13,7 +12,6 @@
 
   */
 
-  miCadena = "Python";
+miCadena = "Python";
 
-  console.log(miCadena[miCadena.length - 1]);
-</script>
+console.log(miCadena[miCadena.length - 1]);
