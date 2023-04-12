@@ -8,7 +8,7 @@
 - [x] HTML & CSS
   
 
-- [ ] JavaScript
+- [x] JavaScript
   
 
 - [ ] React
