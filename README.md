@@ -11,7 +11,7 @@
 - [x] JavaScript
   
 
-- [ ] React
+- [ ] React (40%)
   
 
 - [ ] NodeJs
